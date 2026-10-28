@@ -1,0 +1,14 @@
+[Unit]
+Description=Kotost Market Server (CyberPi)
+After=network.target
+
+[Service]
+Type=simple
+User=ВАШ_USER
+WorkingDirectory=ВАША/ДОМАШНЯЯ/ДИРЕКТОРИЯ
+ExecStart=ВАША/ДИРЕКТОРИЯ/К/PYTHON /ВАШ/ПУТЬ/К/KOTOST_MARKET_RPI.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

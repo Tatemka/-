@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-User=artem
+UserВАШ_ПОЛЬЗОВАЛЬТЕЛЬ
 WorkingDirectory=/home/dietpi
 ExecStart=/usr/bin/python3 /home/dietpi/kot_final.py
 Restart=always

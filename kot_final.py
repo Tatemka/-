@@ -8,7 +8,7 @@ import sqlite3
 # === НАСТРОЙКИ ===
 PORT_CYBERPI = 5051
 PORT_OLD = 5050
-NTFY_URL = "http://192.168.1.140/kotost-market" 
+NTFY_URL = "http://ВАШ_IP/kotost-market" 
 DB_PATH = "/home/dietpi/kotost.db"
 
 # === БАЗА ДАННЫХ ===

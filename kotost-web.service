@@ -1,0 +1,14 @@
+[Unit]
+Description=Kotost Market Web Interface
+After=network.target
+
+[Service]
+Type=simple
+User=artem
+WorkingDirectory=/home/dietpi
+ExecStart=/usr/bin/python3 /home/dietpi/kot_web.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

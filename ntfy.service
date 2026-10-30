@@ -3,8 +3,8 @@ Description=ntfy server
 After=network.target
 
 [Service]
-User=artem
-Group=artem
+User=ВАШ_ПОЛЬЗОВАЛЬТЕЛЬ
+Group=ВАША_ГРУППА
 ExecStart=/usr/bin/ntfy serve --no-log-dates
 ExecReload=/bin/kill --signal HUP $MAINPID
 Restart=on-failure

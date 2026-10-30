@@ -5,7 +5,7 @@ import urllib.parse
 
 app = Flask(__name__)
 
-NTFY_URL = "http://192.168.1.140/kotost-market"
+NTFY_URL = "http://ВАШ_IP/kotost-market"
 DB_PATH = "/home/dietpi/kotost.db"
 
 # HTML-шаблон с тёмной темой и кнопками (Заказ и Очистка)
